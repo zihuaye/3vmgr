@@ -19,16 +19,24 @@ label input[type="radio"], label input[type="checkbox"] {
     max-width: 980px;
 }
 
-.navbar-inverse {
+.navbar-inverse0 {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, .15);
     background-color: #563d7c;
     border-color: #463265;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
 }
 
+.navbar-inverse {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .15);
+    background-color: #3c3c3c;
+    border-color: #3c3c3c;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
+}
+
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav > li > a {
     color: #f3ecff;
+    font-size: 15px;
 }
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -78,7 +86,8 @@ label input[type="radio"], label input[type="checkbox"] {
 
 .sidebar .list.selected {
     color: #fff;
-    background: #4183c4;
+    background: #3c3c3c;
+    background0: #4183c4;
 }
 
 .sidebar .list:hover {
